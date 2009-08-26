@@ -1,0 +1,7 @@
+#Wed Aug 26 17:21:35 EDT 2009
+teamContentDescriptors/org.eclipse.team.cvs.core.changeSetModel/enabled=false
+teamContentDescriptors/org.eclipse.core.resources.modelProvider/enabled=false
+eclipse.preferences.version=1
+teamContentDescriptors/org.eclipse.team.svn.core.svnChangeSetModel/enabled=false
+org.eclipse.team.ui.first_time=false
+teamContentDescriptors/org.eclipse.jdt.ui.modelProvider/enabled=false
