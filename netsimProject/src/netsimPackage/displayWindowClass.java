@@ -34,7 +34,7 @@ public class displayWindowClass extends javax.swing.JFrame {
 	private JButton clearButton;
 	private JTable jTable1;
 	private JScrollPane jScrollPane1;
-	private Canvas canvas1;
+	private Canvas networkCanvas;
 	private JPanel jPanel2;
 	private JCheckBox checkServer;
 	private JCheckBox checkSattelite;
@@ -64,6 +64,7 @@ public class displayWindowClass extends javax.swing.JFrame {
 		try {
 			setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
 			getContentPane().setLayout(null);
+			this.setPreferredSize(new java.awt.Dimension(644, 457));
 			{
 				runButton = new JButton();
 				getContentPane().add(runButton);
@@ -151,22 +152,19 @@ public class displayWindowClass extends javax.swing.JFrame {
 				jPanel2.setBounds(288, 39, 262, 158);
 				jPanel2.setBorder(BorderFactory.createTitledBorder("Your Network"));
 				{
-					canvas1 = new Canvas();
-					GroupLayout canvas1Layout = new GroupLayout((JComponent)canvas1);
-					canvas1.setLayout(null);
-					canvas1Layout.setVerticalGroup(canvas1Layout.createSequentialGroup());
-					canvas1Layout.setHorizontalGroup(canvas1Layout.createSequentialGroup());
+					networkCanvas = new Canvas();
 				}
 				jPanel2Layout.setHorizontalGroup(jPanel2Layout.createSequentialGroup()
-					.addContainerGap()
-					.addComponent(canvas1, 0, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+					.addContainerGap(22, 22)
+					.addComponent(networkCanvas, 0, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
 					.addContainerGap());
 				jPanel2Layout.setVerticalGroup(jPanel2Layout.createSequentialGroup()
 					.addContainerGap()
-					.addComponent(canvas1, 0, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+					.addComponent(networkCanvas, 0, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
 					.addContainerGap());
 			}
 			pack();
+			this.setSize(644, 457);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
