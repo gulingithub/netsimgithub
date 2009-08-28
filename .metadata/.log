@@ -272,3 +272,150 @@ Binding(ALT+CTRL+J,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.textEditorScope,,,system)
+!SESSION 2009-08-28 10:47:53.668 -----------------------------------------------
+eclipse.buildId=M20080221-1800
+java.version=1.6.0_15
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.jface 2 0 2009-08-28 10:48:09.591
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2009-08-28 10:48:09.591
+!MESSAGE A conflict occurred for ALT+CTRL+J:
+Binding(ALT+CTRL+J,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.join.lines,Join Lines,
+		Join lines of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(ALT+CTRL+J,
+	ParameterizedCommand(Command(com.cloudgarden.jigloo.commands.openJiglooPrefs,Open Jigloo Preferences Page,
+		Open Jigloo Preferences Page,
+		Category(com.cloudgarden.jigloo.actions.category,Jigloo,Jigloo Actions,true),
+		LegacyHandlerWrapper(ActionHandler(action=org.eclipse.ui.internal.EditorPluginAction@1ecda50)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+[Jigloo Message: Aug 28, 2009 10:48:10 AM]
+ERROR: TRYING TO GET TEXT PAST END OF BUFFER, 0, 1, 0
+!SESSION 2009-08-28 10:50:23.144 -----------------------------------------------
+eclipse.buildId=M20080221-1800
+java.version=1.6.0_15
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.jface 2 0 2009-08-28 10:50:31.335
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2009-08-28 10:50:31.335
+!MESSAGE A conflict occurred for ALT+CTRL+J:
+Binding(ALT+CTRL+J,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.join.lines,Join Lines,
+		Join lines of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(ALT+CTRL+J,
+	ParameterizedCommand(Command(com.cloudgarden.jigloo.commands.openJiglooPrefs,Open Jigloo Preferences Page,
+		Open Jigloo Preferences Page,
+		Category(com.cloudgarden.jigloo.actions.category,Jigloo,Jigloo Actions,true),
+		LegacyHandlerWrapper(ActionHandler(action=org.eclipse.ui.internal.EditorPluginAction@30380)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+[Jigloo Message: Aug 28, 2009 10:50:32 AM]
+ERROR: TRYING TO GET TEXT PAST END OF BUFFER, 0, 1, 0
+!SESSION 2009-08-28 10:51:24.179 -----------------------------------------------
+eclipse.buildId=M20080221-1800
+java.version=1.6.0_15
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.jface 2 0 2009-08-28 10:51:32.111
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2009-08-28 10:51:32.111
+!MESSAGE A conflict occurred for ALT+CTRL+J:
+Binding(ALT+CTRL+J,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.join.lines,Join Lines,
+		Join lines of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(ALT+CTRL+J,
+	ParameterizedCommand(Command(com.cloudgarden.jigloo.commands.openJiglooPrefs,Open Jigloo Preferences Page,
+		Open Jigloo Preferences Page,
+		Category(com.cloudgarden.jigloo.actions.category,Jigloo,Jigloo Actions,true),
+		LegacyHandlerWrapper(ActionHandler(action=org.eclipse.ui.internal.EditorPluginAction@14e8d67)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+[Jigloo Message: Aug 28, 2009 10:51:33 AM]
+ERROR: TRYING TO GET TEXT PAST END OF BUFFER, 0, 1, 0
+!SESSION 2009-08-28 10:51:58.566 -----------------------------------------------
+eclipse.buildId=M20080221-1800
+java.version=1.6.0_15
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.jface 2 0 2009-08-28 10:52:06.747
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2009-08-28 10:52:06.747
+!MESSAGE A conflict occurred for ALT+CTRL+J:
+Binding(ALT+CTRL+J,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.join.lines,Join Lines,
+		Join lines of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(ALT+CTRL+J,
+	ParameterizedCommand(Command(com.cloudgarden.jigloo.commands.openJiglooPrefs,Open Jigloo Preferences Page,
+		Open Jigloo Preferences Page,
+		Category(com.cloudgarden.jigloo.actions.category,Jigloo,Jigloo Actions,true),
+		LegacyHandlerWrapper(ActionHandler(action=org.eclipse.ui.internal.EditorPluginAction@a574b2)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+[Jigloo Message: Aug 28, 2009 10:52:07 AM]
+ERROR: TRYING TO GET TEXT PAST END OF BUFFER, 0, 1, 0
+!SESSION 2009-08-28 10:52:43.250 -----------------------------------------------
+eclipse.buildId=M20080221-1800
+java.version=1.6.0_15
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.jface 2 0 2009-08-28 10:52:54.697
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2009-08-28 10:52:54.697
+!MESSAGE A conflict occurred for ALT+CTRL+J:
+Binding(ALT+CTRL+J,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.join.lines,Join Lines,
+		Join lines of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(ALT+CTRL+J,
+	ParameterizedCommand(Command(com.cloudgarden.jigloo.commands.openJiglooPrefs,Open Jigloo Preferences Page,
+		Open Jigloo Preferences Page,
+		Category(com.cloudgarden.jigloo.actions.category,Jigloo,Jigloo Actions,true),
+		LegacyHandlerWrapper(ActionHandler(action=org.eclipse.ui.internal.EditorPluginAction@c84051)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
