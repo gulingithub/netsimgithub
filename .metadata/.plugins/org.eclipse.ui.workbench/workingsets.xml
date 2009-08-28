@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<workingSetManager>
-<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1251321931542_1" label="network_simulator_working_set" name="network_simulator_working_set">
-<item elementID="=ns_firstattempt" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-</workingSet>
-<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1251318268276_0" label="Window Working Set" name="Aggregate for window 1251318268274"/>
-</workingSetManager>
