@@ -17,6 +17,7 @@ import javax.swing.*;
  * LEGALLY FOR ANY CORPORATE OR COMMERCIAL PURPOSE.
  */
 public class NetSimGUI extends JFrame {
+	private static final long serialVersionUID = 1L;
 	private JSplitPane mainView, leftPane;
 	private JPanel rightPane, bottomLeftPane, topLeftPane;
 	private JRadioButton linkButton, nodeButton, transButton, appButton;

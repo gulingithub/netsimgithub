@@ -11325,3 +11325,598 @@ Error: java.lang.IllegalArgumentException: wrong number of arguments
 
 [Jigloo Message: Aug 29, 2009 11:31:43 AM]
 Problem instantiating element: posIcon - JLabel : javax.swing.JLabel Please check that it has been compiled and built correctly. wrong number of arguments
+!SESSION 2009-08-29 13:05:02.442 -----------------------------------------------
+eclipse.buildId=M20080221-1800
+java.version=1.6.0_16
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.jface 2 0 2009-08-29 13:23:43.920
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2009-08-29 13:23:43.920
+!MESSAGE A conflict occurred for ALT+CTRL+J:
+Binding(ALT+CTRL+J,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.join.lines,Join Lines,
+		Join lines of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(ALT+CTRL+J,
+	ParameterizedCommand(Command(com.cloudgarden.jigloo.commands.openJiglooPrefs,Open Jigloo Preferences Page,
+		Open Jigloo Preferences Page,
+		Category(com.cloudgarden.jigloo.actions.category,Jigloo,Jigloo Actions,true),
+		LegacyHandlerWrapper(ActionHandler(action=org.eclipse.ui.internal.EditorPluginAction@b3869c)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+[Jigloo Message: Aug 29, 2009 1:23:48 PM]
+warning - error creating class javax.swing.JLabel, java.lang.IllegalArgumentException: wrong number of arguments, constructor=public javax.swing.JLabel() cls=class javax.swing.JLabel ClassLoader=null
+
+[Jigloo Message: Aug 29, 2009 1:23:48 PM]
+Error: Problem instantiating element: posIcon - JLabel : javax.swing.JLabel
+Please check that it has been compiled and built correctly.
+
+wrong number of arguments
+
+[Jigloo Message: Aug 29, 2009 1:23:48 PM]
+Error: java.lang.IllegalArgumentException: wrong number of arguments
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.cloudgarden.jigloo.util.JiglooUtils.newInstance(JiglooUtils.java:2189)
+	at com.cloudgarden.jigloo.FormComponent.makeComponent(FormComponent.java:9158)
+	at com.cloudgarden.jigloo.FormComponent.makeComponent(FormComponent.java:8997)
+	at com.cloudgarden.jigloo.FormComponent.populateComponents(FormComponent.java:11986)
+	at com.cloudgarden.jigloo.FormComponent.populateComponents(FormComponent.java:12131)
+	at com.cloudgarden.jigloo.FormComponent.populateComponents(FormComponent.java:12131)
+	at com.cloudgarden.jigloo.FormComponent.populateComponents(FormComponent.java:12131)
+	at com.cloudgarden.jigloo.editors.FormEditor.populateRoot(FormEditor.java:8191)
+	at com.cloudgarden.jigloo.editors.FormEditor.populateFormComponents(FormEditor.java:6112)
+	at com.cloudgarden.jigloo.editors.FormEditor$24.run(FormEditor.java:3787)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:129)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3659)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3296)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+
+
+[Jigloo Message: Aug 29, 2009 1:23:48 PM]
+Problem instantiating element: posIcon - JLabel : javax.swing.JLabel Please check that it has been compiled and built correctly. wrong number of arguments
+!SESSION 2009-08-29 14:01:55.314 -----------------------------------------------
+eclipse.buildId=M20080221-1800
+java.version=1.6.0_16
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.jface 2 0 2009-08-29 14:02:12.664
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2009-08-29 14:02:12.664
+!MESSAGE A conflict occurred for ALT+CTRL+J:
+Binding(ALT+CTRL+J,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.join.lines,Join Lines,
+		Join lines of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(ALT+CTRL+J,
+	ParameterizedCommand(Command(com.cloudgarden.jigloo.commands.openJiglooPrefs,Open Jigloo Preferences Page,
+		Open Jigloo Preferences Page,
+		Category(com.cloudgarden.jigloo.actions.category,Jigloo,Jigloo Actions,true),
+		LegacyHandlerWrapper(ActionHandler(action=org.eclipse.ui.internal.EditorPluginAction@154bb1)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+[Jigloo Message: Aug 29, 2009 2:02:18 PM]
+warning - error creating class javax.swing.JLabel, java.lang.IllegalArgumentException: wrong number of arguments, constructor=public javax.swing.JLabel() cls=class javax.swing.JLabel ClassLoader=null
+
+[Jigloo Message: Aug 29, 2009 2:02:18 PM]
+Error: Problem instantiating element: posIcon - JLabel : javax.swing.JLabel
+Please check that it has been compiled and built correctly.
+
+wrong number of arguments
+
+[Jigloo Message: Aug 29, 2009 2:02:18 PM]
+Error: java.lang.IllegalArgumentException: wrong number of arguments
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.cloudgarden.jigloo.util.JiglooUtils.newInstance(JiglooUtils.java:2189)
+	at com.cloudgarden.jigloo.FormComponent.makeComponent(FormComponent.java:9158)
+	at com.cloudgarden.jigloo.FormComponent.makeComponent(FormComponent.java:8997)
+	at com.cloudgarden.jigloo.FormComponent.populateComponents(FormComponent.java:11986)
+	at com.cloudgarden.jigloo.FormComponent.populateComponents(FormComponent.java:12131)
+	at com.cloudgarden.jigloo.FormComponent.populateComponents(FormComponent.java:12131)
+	at com.cloudgarden.jigloo.FormComponent.populateComponents(FormComponent.java:12131)
+	at com.cloudgarden.jigloo.editors.FormEditor.populateRoot(FormEditor.java:8191)
+	at com.cloudgarden.jigloo.editors.FormEditor.populateFormComponents(FormEditor.java:6112)
+	at com.cloudgarden.jigloo.editors.FormEditor$24.run(FormEditor.java:3787)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:129)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3659)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3296)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+
+
+[Jigloo Message: Aug 29, 2009 2:02:18 PM]
+Problem instantiating element: posIcon - JLabel : javax.swing.JLabel Please check that it has been compiled and built correctly. wrong number of arguments
+!SESSION 2009-08-29 14:36:29.084 -----------------------------------------------
+eclipse.buildId=M20080221-1800
+java.version=1.6.0_16
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.jface 2 0 2009-08-29 14:36:38.771
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2009-08-29 14:36:38.771
+!MESSAGE A conflict occurred for ALT+CTRL+J:
+Binding(ALT+CTRL+J,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.join.lines,Join Lines,
+		Join lines of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(ALT+CTRL+J,
+	ParameterizedCommand(Command(com.cloudgarden.jigloo.commands.openJiglooPrefs,Open Jigloo Preferences Page,
+		Open Jigloo Preferences Page,
+		Category(com.cloudgarden.jigloo.actions.category,Jigloo,Jigloo Actions,true),
+		LegacyHandlerWrapper(ActionHandler(action=org.eclipse.ui.internal.EditorPluginAction@192b987)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.osgi 2 0 2009-08-29 14:36:45.022
+!MESSAGE While loading class "org.eclipse.mylyn.tasks.ui.TasksUiImages", thread "Thread[main,6,main]" timed out waiting (5000ms) for thread "Thread[Worker-3,5,main]" to finish starting bundle "update@plugins/org.eclipse.mylyn.tasks.ui_3.2.1.v20090722-0200-e33.jar [478]". To avoid deadlock, thread "Thread[main,6,main]" is proceeding but "org.eclipse.mylyn.tasks.ui.TasksUiImages" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "update@plugins/org.eclipse.mylyn.tasks.ui_3.2.1.v20090722-0200-e33.jar" by thread "Worker-3".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1141)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:258)
+	at org.eclipse.osgi.framework.util.SecureAction$21.run(SecureAction.java:406)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:404)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:189)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:340)
+	at org.eclipse.osgi.framework.internal.core.SingleSourcePackage.loadClass(SingleSourcePackage.java:37)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:405)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:369)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:357)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:83)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at org.eclipse.mylyn.context.ui.AbstractFocusViewAction.<init>(AbstractFocusViewAction.java:217)
+	at org.eclipse.mylyn.internal.context.ui.actions.FocusOutlineAction.<init>(FocusOutlineAction.java:43)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at java.lang.Class.newInstance0(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:170)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:788)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:244)
+	at org.eclipse.ui.internal.PluginAction.createDelegate(PluginAction.java:122)
+	at org.eclipse.ui.internal.PluginAction.selectionChanged(PluginAction.java:280)
+	at org.eclipse.ui.internal.PartPluginAction.registerSelectionListener(PartPluginAction.java:40)
+	at org.eclipse.ui.internal.ViewPluginAction.<init>(ViewPluginAction.java:38)
+	at org.eclipse.ui.internal.ActionDescriptor.createAction(ActionDescriptor.java:253)
+	at org.eclipse.ui.internal.ActionDescriptor.<init>(ActionDescriptor.java:170)
+	at org.eclipse.ui.internal.ViewActionBuilder.createActionDescriptor(ViewActionBuilder.java:47)
+	at org.eclipse.ui.internal.PluginActionBuilder.readElement(PluginActionBuilder.java:158)
+	at org.eclipse.ui.internal.registry.RegistryReader.readElements(RegistryReader.java:138)
+	at org.eclipse.ui.internal.registry.RegistryReader.readElementChildren(RegistryReader.java:127)
+	at org.eclipse.ui.internal.PluginActionBuilder.readElement(PluginActionBuilder.java:141)
+	at org.eclipse.ui.internal.registry.RegistryReader.readElements(RegistryReader.java:138)
+	at org.eclipse.ui.internal.registry.RegistryReader.readExtension(RegistryReader.java:149)
+	at org.eclipse.ui.internal.registry.RegistryReader.readRegistry(RegistryReader.java:170)
+	at org.eclipse.ui.internal.PluginActionBuilder.readContributions(PluginActionBuilder.java:112)
+	at org.eclipse.ui.internal.ViewActionBuilder.readActionExtensions(ViewActionBuilder.java:76)
+	at org.eclipse.ui.internal.ViewReference.createPartHelper(ViewReference.java:396)
+	at org.eclipse.ui.internal.ViewReference.createPart(ViewReference.java:227)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:592)
+	at org.eclipse.ui.internal.ViewReference.getView(ViewReference.java:194)
+	at com.cloudgarden.jigloo.editors.FormEditor.showOutlineInternal(FormEditor.java:11725)
+	at com.cloudgarden.jigloo.editors.FormEditor.access$2(FormEditor.java:11709)
+	at com.cloudgarden.jigloo.editors.FormEditor$100.run(FormEditor.java:11699)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:129)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3659)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3296)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 76 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1141)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:258)
+	at org.eclipse.osgi.framework.util.SecureAction$21.run(SecureAction.java:406)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:404)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:189)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:340)
+	at org.eclipse.osgi.framework.internal.core.SingleSourcePackage.loadClass(SingleSourcePackage.java:37)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:405)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:369)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:357)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:83)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at org.eclipse.mylyn.context.ui.AbstractFocusViewAction.<init>(AbstractFocusViewAction.java:217)
+	at org.eclipse.mylyn.internal.context.ui.actions.FocusOutlineAction.<init>(FocusOutlineAction.java:43)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at java.lang.Class.newInstance0(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:170)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:788)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:244)
+	at org.eclipse.ui.internal.PluginAction.createDelegate(PluginAction.java:122)
+	at org.eclipse.ui.internal.PluginAction.selectionChanged(PluginAction.java:280)
+	at org.eclipse.ui.internal.PartPluginAction.registerSelectionListener(PartPluginAction.java:40)
+	at org.eclipse.ui.internal.ViewPluginAction.<init>(ViewPluginAction.java:38)
+	at org.eclipse.ui.internal.ActionDescriptor.createAction(ActionDescriptor.java:253)
+	at org.eclipse.ui.internal.ActionDescriptor.<init>(ActionDescriptor.java:170)
+	at org.eclipse.ui.internal.ViewActionBuilder.createActionDescriptor(ViewActionBuilder.java:47)
+	at org.eclipse.ui.internal.PluginActionBuilder.readElement(PluginActionBuilder.java:158)
+	at org.eclipse.ui.internal.registry.RegistryReader.readElements(RegistryReader.java:138)
+	at org.eclipse.ui.internal.registry.RegistryReader.readElementChildren(RegistryReader.java:127)
+	at org.eclipse.ui.internal.PluginActionBuilder.readElement(PluginActionBuilder.java:141)
+	at org.eclipse.ui.internal.registry.RegistryReader.readElements(RegistryReader.java:138)
+	at org.eclipse.ui.internal.registry.RegistryReader.readExtension(RegistryReader.java:149)
+	at org.eclipse.ui.internal.registry.RegistryReader.readRegistry(RegistryReader.java:170)
+	at org.eclipse.ui.internal.PluginActionBuilder.readContributions(PluginActionBuilder.java:112)
+	at org.eclipse.ui.internal.ViewActionBuilder.readActionExtensions(ViewActionBuilder.java:76)
+	at org.eclipse.ui.internal.ViewReference.createPartHelper(ViewReference.java:396)
+	at org.eclipse.ui.internal.ViewReference.createPart(ViewReference.java:227)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:592)
+	at org.eclipse.ui.internal.ViewReference.getView(ViewReference.java:194)
+	at com.cloudgarden.jigloo.editors.FormEditor.showOutlineInternal(FormEditor.java:11725)
+	at com.cloudgarden.jigloo.editors.FormEditor.access$2(FormEditor.java:11709)
+	at com.cloudgarden.jigloo.editors.FormEditor$100.run(FormEditor.java:11699)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:129)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3659)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3296)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+
+[Jigloo Message: Aug 29, 2009 2:36:49 PM]
+warning - error creating class javax.swing.JLabel, java.lang.IllegalArgumentException: wrong number of arguments, constructor=public javax.swing.JLabel() cls=class javax.swing.JLabel ClassLoader=null
+
+[Jigloo Message: Aug 29, 2009 2:36:49 PM]
+Error: Problem instantiating element: posIcon - JLabel : javax.swing.JLabel
+Please check that it has been compiled and built correctly.
+
+wrong number of arguments
+
+[Jigloo Message: Aug 29, 2009 2:36:49 PM]
+Error: java.lang.IllegalArgumentException: wrong number of arguments
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.cloudgarden.jigloo.util.JiglooUtils.newInstance(JiglooUtils.java:2189)
+	at com.cloudgarden.jigloo.FormComponent.makeComponent(FormComponent.java:9158)
+	at com.cloudgarden.jigloo.FormComponent.makeComponent(FormComponent.java:8997)
+	at com.cloudgarden.jigloo.FormComponent.populateComponents(FormComponent.java:11986)
+	at com.cloudgarden.jigloo.FormComponent.populateComponents(FormComponent.java:12131)
+	at com.cloudgarden.jigloo.FormComponent.populateComponents(FormComponent.java:12131)
+	at com.cloudgarden.jigloo.FormComponent.populateComponents(FormComponent.java:12131)
+	at com.cloudgarden.jigloo.editors.FormEditor.populateRoot(FormEditor.java:8191)
+	at com.cloudgarden.jigloo.editors.FormEditor.populateFormComponents(FormEditor.java:6112)
+	at com.cloudgarden.jigloo.editors.FormEditor$24.run(FormEditor.java:3787)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:129)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3659)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3296)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+
+
+[Jigloo Message: Aug 29, 2009 2:36:49 PM]
+Problem instantiating element: posIcon - JLabel : javax.swing.JLabel Please check that it has been compiled and built correctly. wrong number of arguments
+
+[Jigloo Message: Aug 29, 2009 2:37:26 PM]
+warning - error creating class javax.swing.JLabel, java.lang.IllegalArgumentException: wrong number of arguments, constructor=public javax.swing.JLabel() cls=class javax.swing.JLabel ClassLoader=null
+
+[Jigloo Message: Aug 29, 2009 2:37:26 PM]
+Error: Problem instantiating element: posIcon - JLabel : javax.swing.JLabel
+Please check that it has been compiled and built correctly.
+
+wrong number of arguments
+
+[Jigloo Message: Aug 29, 2009 2:37:26 PM]
+Error: java.lang.IllegalArgumentException: wrong number of arguments
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.cloudgarden.jigloo.util.JiglooUtils.newInstance(JiglooUtils.java:2189)
+	at com.cloudgarden.jigloo.FormComponent.makeComponent(FormComponent.java:9158)
+	at com.cloudgarden.jigloo.FormComponent.makeComponent(FormComponent.java:8997)
+	at com.cloudgarden.jigloo.FormComponent.populateComponents(FormComponent.java:11986)
+	at com.cloudgarden.jigloo.FormComponent.populateComponents(FormComponent.java:12131)
+	at com.cloudgarden.jigloo.FormComponent.populateComponents(FormComponent.java:12131)
+	at com.cloudgarden.jigloo.FormComponent.populateComponents(FormComponent.java:12131)
+	at com.cloudgarden.jigloo.editors.FormEditor.populateRoot(FormEditor.java:8191)
+	at com.cloudgarden.jigloo.editors.FormEditor.populateFormComponents(FormEditor.java:6112)
+	at com.cloudgarden.jigloo.editors.FormEditor.reparseJavaCode(FormEditor.java:5233)
+	at com.cloudgarden.jigloo.editors.FormEditor$8.run(FormEditor.java:5419)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:129)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3659)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3296)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+
+
+[Jigloo Message: Aug 29, 2009 2:37:26 PM]
+Problem instantiating element: posIcon - JLabel : javax.swing.JLabel Please check that it has been compiled and built correctly. wrong number of arguments
+
+[Jigloo Message: Aug 29, 2009 2:37:34 PM]
+warning - error creating class javax.swing.JLabel, java.lang.IllegalArgumentException: wrong number of arguments, constructor=public javax.swing.JLabel() cls=class javax.swing.JLabel ClassLoader=null
+
+[Jigloo Message: Aug 29, 2009 2:37:34 PM]
+Error: Problem instantiating element: posIcon - JLabel : javax.swing.JLabel
+Please check that it has been compiled and built correctly.
+
+wrong number of arguments
+
+[Jigloo Message: Aug 29, 2009 2:37:34 PM]
+Error: java.lang.IllegalArgumentException: wrong number of arguments
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.cloudgarden.jigloo.util.JiglooUtils.newInstance(JiglooUtils.java:2189)
+	at com.cloudgarden.jigloo.FormComponent.makeComponent(FormComponent.java:9158)
+	at com.cloudgarden.jigloo.FormComponent.makeComponent(FormComponent.java:8997)
+	at com.cloudgarden.jigloo.FormComponent.populateComponents(FormComponent.java:11986)
+	at com.cloudgarden.jigloo.FormComponent.populateComponents(FormComponent.java:12131)
+	at com.cloudgarden.jigloo.FormComponent.populateComponents(FormComponent.java:12131)
+	at com.cloudgarden.jigloo.FormComponent.populateComponents(FormComponent.java:12131)
+	at com.cloudgarden.jigloo.editors.FormEditor.populateRoot(FormEditor.java:8191)
+	at com.cloudgarden.jigloo.editors.FormEditor.populateFormComponents(FormEditor.java:6112)
+	at com.cloudgarden.jigloo.editors.FormEditor.reparseJavaCode(FormEditor.java:5233)
+	at com.cloudgarden.jigloo.editors.FormEditor$8.run(FormEditor.java:5419)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:129)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3659)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3296)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+
+
+[Jigloo Message: Aug 29, 2009 2:37:34 PM]
+Problem instantiating element: posIcon - JLabel : javax.swing.JLabel Please check that it has been compiled and built correctly. wrong number of arguments
+!SESSION 2009-08-29 14:50:47.558 -----------------------------------------------
+eclipse.buildId=M20080221-1800
+java.version=1.6.0_16
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.jface 2 0 2009-08-29 14:51:01.125
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2009-08-29 14:51:01.125
+!MESSAGE A conflict occurred for ALT+CTRL+J:
+Binding(ALT+CTRL+J,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.join.lines,Join Lines,
+		Join lines of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(ALT+CTRL+J,
+	ParameterizedCommand(Command(com.cloudgarden.jigloo.commands.openJiglooPrefs,Open Jigloo Preferences Page,
+		Open Jigloo Preferences Page,
+		Category(com.cloudgarden.jigloo.actions.category,Jigloo,Jigloo Actions,true),
+		LegacyHandlerWrapper(ActionHandler(action=org.eclipse.ui.internal.EditorPluginAction@938855)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+[Jigloo Message: Aug 29, 2009 2:51:07 PM]
+warning - error creating class javax.swing.JLabel, java.lang.IllegalArgumentException: wrong number of arguments, constructor=public javax.swing.JLabel() cls=class javax.swing.JLabel ClassLoader=null
+
+[Jigloo Message: Aug 29, 2009 2:51:07 PM]
+Error: Problem instantiating element: posIcon - JLabel : javax.swing.JLabel
+Please check that it has been compiled and built correctly.
+
+wrong number of arguments
+
+[Jigloo Message: Aug 29, 2009 2:51:07 PM]
+Error: java.lang.IllegalArgumentException: wrong number of arguments
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.cloudgarden.jigloo.util.JiglooUtils.newInstance(JiglooUtils.java:2189)
+	at com.cloudgarden.jigloo.FormComponent.makeComponent(FormComponent.java:9158)
+	at com.cloudgarden.jigloo.FormComponent.makeComponent(FormComponent.java:8997)
+	at com.cloudgarden.jigloo.FormComponent.populateComponents(FormComponent.java:11986)
+	at com.cloudgarden.jigloo.FormComponent.populateComponents(FormComponent.java:12131)
+	at com.cloudgarden.jigloo.FormComponent.populateComponents(FormComponent.java:12131)
+	at com.cloudgarden.jigloo.FormComponent.populateComponents(FormComponent.java:12131)
+	at com.cloudgarden.jigloo.editors.FormEditor.populateRoot(FormEditor.java:8191)
+	at com.cloudgarden.jigloo.editors.FormEditor.populateFormComponents(FormEditor.java:6112)
+	at com.cloudgarden.jigloo.editors.FormEditor$24.run(FormEditor.java:3787)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:129)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3659)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3296)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+
+
+[Jigloo Message: Aug 29, 2009 2:51:07 PM]
+Problem instantiating element: posIcon - JLabel : javax.swing.JLabel Please check that it has been compiled and built correctly. wrong number of arguments
