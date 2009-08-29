@@ -1,6 +1,0 @@
-
-import javax.swing.*;
-
-public class image extends javax.swing.JFrame {
-
-}
