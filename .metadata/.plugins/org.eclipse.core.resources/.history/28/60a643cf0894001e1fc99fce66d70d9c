@@ -1,0 +1,13 @@
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+import javax.swing.border.*;
+import java.io.*;
+
+public class NetSimGUI extends JFrame {
+	
+//	JSplitPane mainView = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT);
+//	mainView.setOneTouchExpandable(true);
+//	mainView.setDividerSize(4);
+//	mainView.setDividerLocation(612);
+}
