@@ -1,0 +1,37 @@
+
+
+import javax.swing.*;
+
+public class NewJFrame extends javax.swing.JFrame {
+	private JLabel jLabel;
+	/**
+	* Auto-generated main method to display this JFrame
+	*/
+	public static void main(String[] args) {
+		SwingUtilities.invokeLater(new Runnable() {
+			public void run() {
+				NewJFrame inst = new NewJFrame();
+				inst.setLocationRelativeTo(null);
+				inst.setVisible(true);
+			}
+		});
+	}
+	
+	public NewJFrame() {
+		super();
+		initGUI();
+	}
+	
+	private void initGUI() {
+		try {
+			setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
+			//ImageIcon iconNode = new ImageIcon("resources.icons/snode.png");
+			jLabel = new JLabel("Image and Text", JLabel.CENTER);
+			pack();
+			setSize(400, 300);
+		} catch (Exception e) {			
+			e.printStackTrace();
+		}
+	}
+
+}

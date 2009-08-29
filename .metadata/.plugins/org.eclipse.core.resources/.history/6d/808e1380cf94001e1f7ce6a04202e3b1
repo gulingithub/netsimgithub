@@ -1,0 +1,43 @@
+package NetSimGUI.java;
+
+import java.awt.Graphics;
+import java.awt.LayoutManager;
+import java.util.Iterator;
+import java.util.Vector;
+
+import javax.swing.JPanel;
+
+public class LinePanel extends JPanel {
+	public Vector<Integer> linevector;
+
+	public LinePanel() {
+		// TODO Auto-generated constructor stub
+		linevector = new Vector<Integer>();
+	}
+
+	public LinePanel(LayoutManager layout) {
+		super(layout);
+		// TODO Auto-generated constructor stub
+	}
+
+	public LinePanel(boolean isDoubleBuffered) {
+		super(isDoubleBuffered);
+		// TODO Auto-generated constructor stub
+	}
+
+	public LinePanel(LayoutManager layout, boolean isDoubleBuffered) {
+		super(layout, isDoubleBuffered);
+		// TODO Auto-generated constructor stub
+	}
+	
+	public void paint(Graphics g) {
+        super.paint(g);
+        Iterator i = this.linevector.iterator();
+        while (i.hasNext()) {
+        	i.next();
+        	g.drawLine(50, 20, 100, 20);
+        }
+        
+    } 
+
+}

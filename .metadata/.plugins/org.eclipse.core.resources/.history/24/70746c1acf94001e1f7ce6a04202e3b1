@@ -1,0 +1,28 @@
+package NetSimGUI.java;
+
+import java.awt.LayoutManager;
+
+import javax.swing.JPanel;
+
+public class LinePanel extends JPanel {
+
+	public LinePanel() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public LinePanel(LayoutManager layout) {
+		super(layout);
+		// TODO Auto-generated constructor stub
+	}
+
+	public LinePanel(boolean isDoubleBuffered) {
+		super(isDoubleBuffered);
+		// TODO Auto-generated constructor stub
+	}
+
+	public LinePanel(LayoutManager layout, boolean isDoubleBuffered) {
+		super(layout, isDoubleBuffered);
+		// TODO Auto-generated constructor stub
+	}
+
+}
