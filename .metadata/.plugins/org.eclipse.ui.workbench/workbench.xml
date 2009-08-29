@@ -19,6 +19,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.cloudgarden.jigloo.editors.FormEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -30,11 +31,16 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">
 <part id="0"/>
+<part id="1"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="com.cloudgarden.jigloo.editors.FormEditor" name="displayWindowClass.java" partName="displayWindowClass.java" path="C:/Users/Alex/Documents/UVA 2009/CS 6240/New Folder (2)/netsimProject/src/netsimPackage/displayWindowClass.java" title="displayWindowClass.java" tooltip="netsimProject/src/netsimPackage/displayWindowClass.java" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="com.cloudgarden.jigloo.editors.FormEditor" name="displayWindowClass.java" partName="displayWindowClass.java" path="C:/Users/Alex/Documents/UVA 2009/two/netsimProject/src/netsimPackage/displayWindowClass.java" title="displayWindowClass.java" tooltip="netsimProject/src/netsimPackage/displayWindowClass.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/netsimProject/src/netsimPackage/displayWindowClass.java"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="displayWindowClass.java" partName="displayWindowClass.java" path="C:/Users/Alex/Documents/UVA 2009/cs project/one/netsimProject/src/netsimPackage/displayWindowClass.java" title="displayWindowClass.java" tooltip="netsimProject/src/netsimPackage/displayWindowClass.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/netsimProject/src/netsimPackage/displayWindowClass.java"/>
 <editorState selectionHPixel="0" selectionLength="0" selectionOffset="0"/>
 </editor>
@@ -178,7 +184,7 @@
 <presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.105594955" ratioLeft="134" ratioRight="1135" relationship="2" relative="left"/>
+<info part="org.eclipse.ui.editorss" ratio="0.20488574" ratioLeft="260" ratioRight="1009" relationship="2" relative="left"/>
 <info folder="true" part="bottom" ratio="0.75449103" ratioLeft="504" ratioRight="164" relationship="4" relative="org.eclipse.ui.editorss">
 <folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
@@ -217,6 +223,9 @@
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.cloudgarden.jigloo.editors.FormEditor" path="/netsimProject/src/netsimPackage/displayWindowClass.java"/>
 </editors>
+<item historyLabel="displayWindowClass.java" index="0">
+<position/>
+</item>
 <item active="true" historyLabel="displayWindowClass.java" index="0">
 <position/>
 </item>
@@ -238,7 +247,7 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.cloudgarden.jigloo.editors.FormEditor" name="displayWindowClass.java" tooltip="netsimProject/src/netsimPackage/displayWindowClass.java">
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="displayWindowClass.java" tooltip="netsimProject/src/netsimPackage/displayWindowClass.java">
 <persistable path="/netsimProject/src/netsimPackage/displayWindowClass.java"/>
 </file>
 </mruList>
