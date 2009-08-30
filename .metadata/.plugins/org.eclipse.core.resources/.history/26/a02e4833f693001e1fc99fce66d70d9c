@@ -1,0 +1,88 @@
+import java.awt.event.*;
+import java.awt.BorderLayout;
+import javax.swing.*;
+
+
+/**
+* This code was edited or generated using CloudGarden's Jigloo
+* SWT/Swing GUI Builder, which is free for non-commercial
+* use. If Jigloo is being used commercially (ie, by a corporation,
+* company or business for any purpose whatever) then you
+* should purchase a license for each developer using Jigloo.
+* Please visit www.cloudgarden.com for details.
+* Use of Jigloo implies acceptance of these licensing terms.
+* A COMMERCIAL LICENSE HAS NOT BEEN PURCHASED FOR
+* THIS MACHINE, SO JIGLOO OR THIS CODE CANNOT BE USED
+* LEGALLY FOR ANY CORPORATE OR COMMERCIAL PURPOSE.
+*/
+public class NewJFrame extends javax.swing.JFrame {
+	private JLabel jLabel;
+	private JLabel jLabel1;
+	private JPanel jPanel1;
+	private int X, Y;
+	/**
+	* Auto-generated main method to display this JFrame
+	*/
+	public static void main(String[] args) {
+		SwingUtilities.invokeLater(new Runnable() {
+			public void run() {
+				NewJFrame inst = new NewJFrame();
+				inst.setLocationRelativeTo(null);
+				inst.setVisible(true);
+			}
+		});
+	}
+	
+	public NewJFrame() {
+		super();
+		initGUI();
+	}
+	
+	private void addIcon(){
+		jLabel1 = new JLabel();
+		jPanel1.add(jLabel1);
+		ImageIcon iconNode = new ImageIcon("C:/node.png");
+		JLabel jLabel2; 
+		jLabel2 = new JLabel("Text", iconNode, JLabel.CENTER);
+		jPanel1.add(jLabel2);
+		jLabel2.setLocation(X, Y);
+		System.out.print("Here");
+		repaint();
+	}
+	
+	
+	private void initGUI() {
+		try {
+			setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
+			{
+				jPanel1 = new JPanel();
+				getContentPane().add(jPanel1, BorderLayout.NORTH);
+				jPanel1.setPreferredSize(new java.awt.Dimension(384, 123));
+				jPanel1.setBackground(new java.awt.Color(255,255,255));
+				//addIcon();			
+				jPanel1.addMouseListener(new MouseAdapter(){
+					public void mousePressed(MouseEvent me){
+						//System.out.print(me.getX());
+						X=me.getX();
+						Y=me.getY();
+						addIcon();
+						repaint();
+					}
+				});
+			}
+			{
+//				ImageIcon iconApp = new ImageIcon("C:/app.png");
+//				jLabel = new JLabel("Image and Text", iconApp, JLabel.CENTER);
+//				getContentPane().add(jLabel, BorderLayout.CENTER);
+//				jLabel.setText("jLabel");
+//				jLabel.setPreferredSize(new java.awt.Dimension(384, 176));
+
+			}
+			pack();
+			setSize(400, 300);
+		} catch (Exception e) {			
+			e.printStackTrace();
+		}
+	}
+
+}
