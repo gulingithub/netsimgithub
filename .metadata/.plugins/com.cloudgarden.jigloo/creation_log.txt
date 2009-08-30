@@ -1,32 +1,32 @@
 Creating elements for About.java
 
 
->>>  about to create class java.awt.Dimension, constructor=public java.awt.Dimension(int,int)
+                                                                                                >>>  about to create class java.awt.Dimension, constructor=public java.awt.Dimension(int,int)
 
-    >>>  about to create class java.awt.Dimension
-    <<< created class java.awt.Dimension
-<<< created class java.awt.Dimension
+                                                                                                    >>>  about to create class java.awt.Dimension
+                                                                                                    <<< created class java.awt.Dimension
+                                                                                                <<< created class java.awt.Dimension
 
->>>  about to create class java.awt.Dimension, constructor=public java.awt.Dimension(int,int)
-<<< created class java.awt.Dimension
+                                                                                                >>>  about to create class java.awt.Dimension, constructor=public java.awt.Dimension(int,int)
+                                                                                                <<< created class java.awt.Dimension
 
->>>  about to create class java.awt.Font, constructor=public java.awt.Font(java.lang.String,int,int)
+                                                                                                >>>  about to create class java.awt.Font, constructor=public java.awt.Font(java.lang.String,int,int)
 
-    >>>  about to create class java.awt.Font
-    <<< error creating class java.awt.Font, java.lang.NoSuchMethodException: java.awt.Font.<init>()
-<<< created class java.awt.Font
+                                                                                                    >>>  about to create class java.awt.Font
+                                                                                                    <<< error creating class java.awt.Font, java.lang.NoSuchMethodException: java.awt.Font.<init>()
+                                                                                                <<< created class java.awt.Font
 
->>>  about to create class javax.swing.JFrame, constructor=public javax.swing.JFrame() throws java.awt.HeadlessException
-                                    <<< created class javax.swing.JFrame
+                                                                                                >>>  about to create class javax.swing.JFrame, constructor=public javax.swing.JFrame() throws java.awt.HeadlessException
+                                                                                                                                    <<< created class javax.swing.JFrame
 
-                                    >>>  about to create class javax.swing.JRootPane$1
-                                    <<< error creating class javax.swing.JRootPane$1, java.lang.NoSuchMethodException: javax.swing.JRootPane$1.<init>()
+                                                                                                                                    >>>  about to create class javax.swing.JRootPane$1
+                                                                                                                                    <<< error creating class javax.swing.JRootPane$1, java.lang.NoSuchMethodException: javax.swing.JRootPane$1.<init>()
 
-                                    >>>  about to create class java.awt.BorderLayout
-                                    <<< created class java.awt.BorderLayout
+                                                                                                                                    >>>  about to create class java.awt.BorderLayout
+                                                                                                                                    <<< created class java.awt.BorderLayout
 
-                                    >>>  about to create class javax.swing.JLabel, constructor=public javax.swing.JLabel()
-                                                                <<< created class javax.swing.JLabel
+                                                                                                                                    >>>  about to create class javax.swing.JLabel, constructor=public javax.swing.JLabel()
+                                                                                                                                                                <<< created class javax.swing.JLabel
 
-                                                                >>>  about to create class javax.swing.JTextField, constructor=public javax.swing.JTextField()
-                                                                                                <<< created class javax.swing.JTextField
+                                                                                                                                                                >>>  about to create class javax.swing.JTextField, constructor=public javax.swing.JTextField()
+                                                                                                                                                                                                <<< created class javax.swing.JTextField

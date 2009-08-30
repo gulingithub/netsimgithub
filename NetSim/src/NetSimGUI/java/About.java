@@ -1,16 +1,7 @@
 package NetSimGUI.java;
 
-
-
-import java.awt.BorderLayout;
-
-import javax.swing.ImageIcon;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JTextArea;
-import javax.swing.JTextField;
-import javax.swing.WindowConstants;
-import javax.swing.SwingUtilities;
+import java.awt.*;
+import javax.swing.*;
 
 
 /**
@@ -26,13 +17,10 @@ import javax.swing.SwingUtilities;
 * LEGALLY FOR ANY CORPORATE OR COMMERCIAL PURPOSE.
 */
 public class About extends javax.swing.JFrame {
+	private static final long serialVersionUID = 1L;
 	private JLabel jLabel;
 	private JTextField jTextField1;
-	private JTextArea jTextArea2;
-	private JTextArea jTextArea1;
-	/**
-	* Auto-generated main method to display this JFrame
-	*/
+
 	public static void main(String[] args) {
 		SwingUtilities.invokeLater(new Runnable() {
 			public void run() {
@@ -42,32 +30,30 @@ public class About extends javax.swing.JFrame {
 			}
 		});
 	}
-	
+
 	public About() {
 		super("About");
 		initGUI();
 	}
-	
+
 	private void initGUI() {
 		try {
 			setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
 			{
-				ImageIcon iconApp = new ImageIcon(getClass().getClassLoader().getResource("resources/icons/About.jpg"));
-				jLabel = new JLabel(iconApp, JLabel.CENTER);
-				getContentPane().add(jLabel, BorderLayout.WEST);
-				jLabel.setText("APPLICATION");
-				jLabel.setPreferredSize(new java.awt.Dimension(535, 237));
-				jLabel.setSize(200, 341);
-			}
-			{
 				jTextField1 = new JTextField();
 				getContentPane().add(jTextField1, BorderLayout.SOUTH);
-				jTextField1.setText(" Netsim  Version: 0.0.0  (c) Copyright NetSim contributors, All rights reserved. ");
-				jTextField1.setPreferredSize(new java.awt.Dimension(536, 173));
+				jTextField1.setText(" Netsim  Version: 0.1  (c) Copyright NetSim contributors, All rights reserved. ");
+				jTextField1.setPreferredSize(new java.awt.Dimension(536, 54));
 				jTextField1.setSize(250, 350);
 				jTextField1.setFont(new java.awt.Font("Times New Roman",0,16));
 			}
-
+			{
+				ImageIcon iconApp = new ImageIcon(getClass().getClassLoader().getResource("resources/icons/About.jpg"));
+				jLabel = new JLabel(iconApp, JLabel.CENTER);
+				getContentPane().add(jLabel, BorderLayout.WEST);
+				jLabel.setSize(200, 341);
+			}
+			
 			pack();
 		} catch (Exception e) {
 			e.printStackTrace();

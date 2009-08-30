@@ -4,20 +4,7 @@ import java.awt.event.*;
 import java.util.ArrayList;
 
 import javax.swing.*;
-//import java.io.*;
 
-/**
- * This code was edited or generated using CloudGarden's Jigloo
- * SWT/Swing GUI Builder, which is free for non-commercial
- * use. If Jigloo is being used commercially (ie, by a corporation,
- * company or business for any purpose whatever) then you
- * should purchase a license for each developer using Jigloo.
- * Please visit www.cloudgarden.com for details.
- * Use of Jigloo implies acceptance of these licensing terms.
- * A COMMERCIAL LICENSE HAS NOT BEEN PURCHASED FOR
- * THIS MACHINE, SO JIGLOO OR THIS CODE CANNOT BE USED
- * LEGALLY FOR ANY CORPORATE OR COMMERCIAL PURPOSE.
- */
 public class NetSimGUI extends JFrame {
 	//Variable declaration
 	private static final long serialVersionUID = 1L;
@@ -26,8 +13,8 @@ public class NetSimGUI extends JFrame {
 	private LinePanel rightPane;
 	private JToggleButton linkButton, nodeButton, transButton, appButton, selectButton;
 	private JMenuBar jMenuBar;
-	private JMenu fileMenu, editMenu, helpMenu;
-	private JMenuItem jMenuItem1, jMenuItem2, jMenuItem3, jMenuItem4;
+	private JMenu fileMenu, helpMenu; //editMenu,
+	private JMenuItem  jMenuItem2,  jMenuItem4; //jMenuItem1, jMenuItem3,
 	private JLabel posIcon;
 	public About aboutWindow= new About();
 	private ArrayList<Component> selectedComponents = new ArrayList<Component>();
@@ -161,18 +148,18 @@ public class NetSimGUI extends JFrame {
 				fileMenu.setText("File");
 				fileMenu.setName("fileMenu");
 				{
-					jMenuItem1 = new JMenuItem();
+					/*jMenuItem1 = new JMenuItem();
 					fileMenu.add(jMenuItem1);
 					jMenuItem1.setText("New");
 					//jMenuItem2.setAction(getAppActionMap().get("new"));
-					fileMenu.addSeparator();
+					fileMenu.addSeparator();*/
 					jMenuItem2 = new JMenuItem();
 					fileMenu.add(jMenuItem2);
 					jMenuItem2.setText("Quit");
 					jMenuItem2.addActionListener(SimpleListener);
 					//jMenuItem2.setAction(getAppActionMap().get("quit"));
 				}		            	
-				//Edit Menu
+				/*//Edit Menu
 				editMenu = new JMenu();
 				jMenuBar.add(editMenu);
 				editMenu.setText("Edit");
@@ -183,7 +170,7 @@ public class NetSimGUI extends JFrame {
 					jMenuItem3.setText("Clear");
 					jMenuItem3.addActionListener(SimpleListener2);
 					//jMenuItem3.setAction(getAppActionMap().get("clear"));
-				}
+				}*/
 				//Help Menu
 				helpMenu = new JMenu();
 				jMenuBar.add(helpMenu);
@@ -206,10 +193,7 @@ public class NetSimGUI extends JFrame {
 
 	ActionListener SimpleListener = new ActionListener()
 	{
-		public void actionPerformed (ActionEvent e)
-		{
-			
-			System.out.println("You chosegegegegege" + e.getActionCommand());
+		public void actionPerformed (ActionEvent e){
 			System.exit(0);
 		}
 	}
@@ -217,27 +201,10 @@ public class NetSimGUI extends JFrame {
 	
 	ActionListener SimpleListener1 = new ActionListener()
 	{
-		public void actionPerformed (ActionEvent e)
-		{
-			
-			System.out.println("You chosegegegegege" + e.getActionCommand());
-			aboutWindow.show();
-			
+		public void actionPerformed (ActionEvent e){			
+			aboutWindow.show();			
 		}
 	};
-	
-	ActionListener SimpleListener2 = new ActionListener()
-	{
-		public void actionPerformed (ActionEvent e)
-		{
-			
-			System.out.println("You chosegegegegege" + e.getActionCommand());
-			
-			//rightPane.removeAll();
-			//rightPane.validate();
-		}
-	};
-	
 	
 	//Detects DEL key to delete components
 	private void rightPaneKeyPressed(java.awt.event.KeyEvent evt) {
