@@ -233,8 +233,8 @@ public class NetSimGUI extends JFrame {
 			
 			System.out.println("You chosegegegegege" + e.getActionCommand());
 			
-			//rightPane.removeAll();
-			//rightPane.validate();
+			rightPane.removeAll();
+			rightPane.validate();
 		}
 	};
 	

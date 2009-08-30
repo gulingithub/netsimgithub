@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="17" version="2.0">
 <workbenchAdvisor/>
-<window height="768" maximized="true" width="1024" x="152" y="25">
+<window height="768" width="1024" x="152" y="25">
 <fastViewData fastViewLocation="1024">
 <orientation position="512" view="com.cloudgarden.jigloo.views.FormView"/>
 </fastViewData>
@@ -10,24 +10,24 @@
 </perspectiveBar>
 <coolbarLayout locked="0">
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="99" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="98" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
-<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="99" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="124" y="22"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="98" y="22"/>
 <coolItem id="org.eclipse.jst.j2ee.J2eeMainActionSet" itemType="typeToolBarContribution" x="61" y="22"/>
 <coolItem id="org.eclipse.jst.j2ee.J2eeMainActionSet2" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="org.eclipse.jst.j2ee.J2eeMainActionSet3" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="org.eclipse.jst.j2ee.J2eeMainActionSet4" itemType="typeToolBarContribution" x="38" y="22"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="84" y="22"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="85" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="62" y="22"/>
 <coolItem id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="org.eclipse.wst.ws.explorer.explorer" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="183" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="com.cloudgarden.jigloo.editors.FormEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.cloudgarden.jigloo.editors.FormEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -39,17 +39,27 @@
 <presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
+<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NetSimGUI.java" partName="NetSimGUI.java" path="C:/Users/Yina/Desktop/UVa/FALL09/Software Eng/HW1/day4/NetSim/src/NetSimGUI/java/NetSimGUI.java" title="NetSimGUI.java" tooltip="NetSim/src/NetSimGUI/java/NetSimGUI.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NetSimGUI.java" partName="NetSimGUI.java" path="F:/courses/Software Engineering/netsim-1/NetSim/src/NetSimGUI/java/NetSimGUI.java" title="NetSimGUI.java" tooltip="NetSim/src/NetSimGUI/java/NetSimGUI.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NetSim/src/NetSimGUI/java/NetSimGUI.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="6941"/>
+<editorState selectionHPixel="0" selectionLength="94" selectionOffset="24"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LinePanel.java" partName="LinePanel.java" path="C:/Users/Yina/Desktop/UVa/FALL09/Software Eng/HW1/day4/NetSim/src/NetSimGUI/java/LinePanel.java" title="LinePanel.java" tooltip="NetSim/src/NetSimGUI/java/LinePanel.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NetSim/src/NetSimGUI/java/LinePanel.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="27"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="About.java" partName="About.java" path="F:/courses/Software Engineering/netsim-1/NetSim/src/NetSimGUI/java/About.java" title="About.java" tooltip="NetSim/src/NetSimGUI/java/About.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NetSim/src/NetSimGUI/java/About.java"/>
+<editorState selectionHPixel="96" selectionLength="110" selectionOffset="1518"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WelcomeWindow.java" partName="WelcomeWindow.java" path="F:/courses/Software Engineering/netsim-1/NetSim/src/NetSimGUI/java/WelcomeWindow.java" title="WelcomeWindow.java" tooltip="NetSim/src/NetSimGUI/java/WelcomeWindow.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NetSim/src/NetSimGUI/java/WelcomeWindow.java"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="365"/>
+</editor>
+<editor id="com.cloudgarden.jigloo.editors.FormEditor" name="About.java" partName="About.java" path="F:/courses/Software Engineering/netsim-1/NetSim/src/NetSimGUI/java/About.java" title="About.java" tooltip="NetSim/src/NetSimGUI/java/About.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NetSim/src/NetSimGUI/java/About.java"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="1764"/>
 </editor>
 </editors>
 <views>
@@ -58,7 +68,6 @@
 </view>
 <view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" partName="Snippets"/>
 <view id="org.eclipse.ui.views.PropertySheet" partName="Properties"/>
-<view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" partName="Data Source Explorer"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState columnWidth0="253" columnWidth1="78" columnWidth2="153" columnWidth3="63" columnWidth4="0" horizontalPosition="0" verticalPosition="0">
 <columnOrder columnOrderIndex="0"/>
@@ -92,7 +101,6 @@
 <child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter" isEnabled="true"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter" isEnabled="false"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*" isEnabled="true"/>
-<child filterId="org.eclipse.pde.ui.BinaryProjectFilter1" isEnabled="false"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter" isEnabled="true"/>
 <child filterId="org.eclipse.mylyn.java.ui.MembersFilter" isEnabled="false"/>
 </xmlDefinedFilters>
@@ -113,9 +121,8 @@
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
-<view id="org.eclipse.wst.server.ui.ServersView" partName="Servers"/>
 </views>
-<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jst.j2ee.internal.perspective.J2EEPerspective" id="org.eclipse.jst.j2ee.J2EEPerspective" label="Java EE"/>
 <alwaysOnActionSet id="org.eclipse.jst.servlet.ui.internal.actions.ConvertToWebModuleTypeActionSet"/>
@@ -170,8 +177,8 @@
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.ui.views.TaskList"/>
 <view id="org.eclipse.ui.views.PropertySheet"/>
-<view id="org.eclipse.wst.server.ui.ServersView"/>
-<view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator"/>
+<view id="org.eclipse.wst.server.ui.ServersView" removed="true"/>
+<view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" removed="true"/>
 <view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars>&#x0A;<fastViewBar fastViewLocation="1024" id="org.eclipse.ui.internal.ViewStack@135572b" orientation="256" selectedTabId="org.eclipse.ui.internal.introview" style="0">&#x0A;<fastViews>&#x0A;<view id="org.eclipse.ui.internal.introview" ratio="0.2989214"/>
@@ -222,7 +229,6 @@
 </perspective>
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
-<alwaysOnActionSet id="org.eclipse.jst.servlet.ui.internal.actions.ConvertToWebModuleTypeActionSet"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
 <alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
@@ -233,8 +239,6 @@
 <alwaysOnActionSet id="org.eclipse.ui.WorkingSetActionSet"/>
 <alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
 <alwaysOnActionSet id="org.eclipse.update.ui.softwareUpdates"/>
-<alwaysOnActionSet id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet"/>
-<alwaysOnActionSet id="org.eclipse.wst.ws.explorer.explorer"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
@@ -309,10 +313,10 @@
 <info part="org.eclipse.ui.views.ProgressView" ratio="0.8622754" ratioLeft="576" ratioRight="92" relationship="4" relative="org.eclipse.ui.internal.ViewStack@e0a75a"/>
 <info part="org.eclipse.search.ui.views.SearchView" ratio="0.5" ratioLeft="636" ratioRight="636" relationship="2" relative="org.eclipse.ui.views.ProgressView"/>
 <info part="org.eclipse.ui.views.BookmarkView" ratio="0.5" ratioLeft="636" ratioRight="636" relationship="2" relative="org.eclipse.ui.views.ProgressView"/>
-<info part="org.eclipse.ui.editorss" ratio="0.17809299" ratioLeft="226" ratioRight="1043" relationship="2" relative="org.eclipse.ui.internal.ViewStack@e0a75a"/>
+<info part="org.eclipse.ui.editorss" ratio="0.22885571" ratioLeft="230" ratioRight="775" relationship="2" relative="org.eclipse.ui.internal.ViewStack@e0a75a"/>
 <info part="org.eclipse.jdt.ui.SourceView" ratio="0.8401254" ratioLeft="536" ratioRight="102" relationship="4" relative="org.eclipse.ui.editorss"/>
 <info part="org.eclipse.jdt.ui.JavadocView" ratio="0.5" ratioLeft="495" ratioRight="495" relationship="2" relative="org.eclipse.jdt.ui.SourceView"/>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@5e841c" ratio="0.7942272" ratioLeft="853" ratioRight="221" relationship="2" relative="org.eclipse.ui.editorss">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@5e841c" ratio="0.86340207" ratioLeft="670" ratioRight="106" relationship="2" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="com.cloudgarden.jigloo.views.FormView" label="LabelNotFound"/>
@@ -321,7 +325,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@18ada9f" ratio="0.78592813" ratioLeft="525" ratioRight="143" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@18ada9f" ratio="0.77607363" ratioLeft="506" ratioRight="146" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">
@@ -344,160 +348,164 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.cloudgarden.jigloo.editors.FormEditor" path="/NetSim/src/NetSimGUI/java/NetSimGUI.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NetSim/src/NetSimGUI/java/more.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NetSim/src/NetSimGUI/java/NetSimGUI.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NetSim/src/NetSimGUI/java/LinePanel.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NetSim/src/NetSimGUI/java/LinePanel.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NetSim/src/NetSimGUI/java/NetSimGUI.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NetSim/src/NetSimGUI/java/About.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NetSim/src/NetSimGUI/java/WelcomeWindow.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.cloudgarden.jigloo.editors.FormEditor" path="/NetSim/src/NetSimGUI/java/About.java"/>
 </editors>
-<item historyLabel="NetSimGUI.java" index="0">
-<position/>
-</item>
-<item historyLabel="more.java" index="1">
-<position/>
-</item>
-<item historyLabel="NetSimGUI.java" index="0">
-<position info="not_deleted" x="9614" y="0"/>
-</item>
-<item historyLabel="more.java" index="1">
-<position info="not_deleted" x="23005" y="1021"/>
-</item>
-<item historyLabel="NetSimGUI.java" index="0">
-<position info="not_deleted" x="9614" y="0"/>
-</item>
-<item historyLabel="more.java" index="1">
-<position info="not_deleted" x="23005" y="1021"/>
-</item>
-<item historyLabel="NetSimGUI.java" index="2">
-<position/>
-</item>
-<item historyLabel="more.java" index="1">
-<position info="not_deleted" x="23005" y="1021"/>
-</item>
-<item historyLabel="NetSimGUI.java" index="2">
-<position info="not_deleted" x="10862" y="0"/>
-</item>
-<item historyLabel="more.java" index="1">
-<position info="not_deleted" x="21391" y="1612"/>
-</item>
-<item historyLabel="NetSimGUI.java" index="2">
-<position info="not_deleted" x="10497" y="4"/>
-</item>
-<item historyLabel="more.java" index="1">
-<position info="not_deleted" x="21391" y="1612"/>
-</item>
-<item historyLabel="NetSimGUI.java" index="2">
-<position info="not_deleted" x="9359" y="0"/>
-</item>
-<item historyLabel="more.java" index="1">
-<position info="not_deleted" x="21391" y="1612"/>
-</item>
-<item historyLabel="NetSimGUI.java" index="2">
-<position info="not_deleted" x="9359" y="0"/>
-</item>
-<item historyLabel="more.java" index="1">
-<position info="not_deleted" x="21391" y="1612"/>
-</item>
-<item historyLabel="NetSimGUI.java" index="2">
-<position info="not_deleted" x="9359" y="0"/>
-</item>
-<item historyLabel="more.java" index="1">
-<position info="not_deleted" x="20249" y="166"/>
-</item>
-<item historyLabel="NetSimGUI.java" index="2">
-<position info="not_deleted" x="9359" y="0"/>
-</item>
-<item historyLabel="more.java" index="1">
-<position info="not_deleted" x="20249" y="166"/>
-</item>
-<item historyLabel="NetSimGUI.java" index="2">
-<position info="not_deleted" x="9359" y="0"/>
-</item>
-<item historyLabel="more.java" index="1">
+<item historyLabel="more.java" index="0">
 <position info="not_deleted" x="19535" y="880"/>
 </item>
-<item historyLabel="NetSimGUI.java" index="2">
-<position info="not_deleted" x="0" y="11500"/>
-</item>
-<item historyLabel="more.java" index="1">
-<position info="not_deleted" x="19535" y="880"/>
-</item>
-<item historyLabel="NetSimGUI.java" index="2">
-<position info="not_deleted" x="10699" y="12"/>
-</item>
-<item historyLabel="more.java" index="1">
-<position info="not_deleted" x="19535" y="880"/>
-</item>
-<item historyLabel="NetSimGUI.java" index="2">
-<position info="not_deleted" x="10699" y="12"/>
-</item>
-<item historyLabel="NetSimGUI.java" index="2">
-<position info="not_deleted" x="4837" y="0"/>
-</item>
-<item historyLabel="NetSimGUI.java" index="2">
-<position info="not_deleted" x="4819" y="0"/>
-</item>
-<item historyLabel="NetSimGUI.java" index="2">
-<position info="not_deleted" x="4837" y="0"/>
-</item>
-<item historyLabel="NetSimGUI.java" index="2">
-<position info="not_deleted" x="4794" y="14"/>
-</item>
-<item historyLabel="NetSimGUI.java" index="2">
-<position info="not_deleted" x="4952" y="0"/>
-</item>
-<item historyLabel="NetSimGUI.java" index="2">
-<position/>
-</item>
-<item historyLabel="more.java" index="1">
-<position info="not_deleted" x="19535" y="880"/>
-</item>
-<item historyLabel="NetSimGUI.java" index="2">
-<position info="not_deleted" x="9082" y="0"/>
-</item>
-<item historyLabel="more.java" index="1">
-<position info="not_deleted" x="19535" y="880"/>
-</item>
-<item historyLabel="NetSimGUI.java" index="2">
+<item historyLabel="NetSimGUI.java" index="1">
 <position info="not_deleted" x="9397" y="0"/>
 </item>
-<item historyLabel="more.java" index="1">
-<position info="not_deleted" x="19535" y="880"/>
-</item>
-<item historyLabel="NetSimGUI.java" index="2">
-<position info="not_deleted" x="9397" y="0"/>
-</item>
-<item historyLabel="NetSimGUI.java" index="2">
+<item historyLabel="NetSimGUI.java" index="1">
 <position/>
 </item>
-<item historyLabel="NetSimGUI.java" index="2">
+<item historyLabel="NetSimGUI.java" index="1">
 <position info="not_deleted" x="9814" y="1"/>
 </item>
-<item historyLabel="NetSimGUI.java" index="2">
+<item historyLabel="NetSimGUI.java" index="1">
 <position/>
 </item>
-<item historyLabel="NetSimGUI.java" index="2">
+<item historyLabel="NetSimGUI.java" index="1">
 <position info="not_deleted" x="9556" y="0"/>
 </item>
-<item historyLabel="NetSimGUI.java" index="2">
+<item historyLabel="NetSimGUI.java" index="1">
 <position info="not_deleted" x="1488" y="1"/>
 </item>
-<item historyLabel="NetSimGUI.java" index="2">
+<item historyLabel="NetSimGUI.java" index="1">
 <position info="not_deleted" x="10971" y="0"/>
 </item>
-<item historyLabel="NetSimGUI.java" index="2">
+<item historyLabel="NetSimGUI.java" index="1">
 <position info="not_deleted" x="897" y="0"/>
+</item>
+<item historyLabel="LinePanel.java" index="2">
+<position/>
+</item>
+<item historyLabel="NetSimGUI.java" index="1">
+<position info="not_deleted" x="4600" y="15"/>
+</item>
+<item historyLabel="NetSimGUI.java" index="1">
+<position info="not_deleted" x="4965" y="0"/>
+</item>
+<item historyLabel="NetSimGUI.java" index="1">
+<position/>
 </item>
 <item historyLabel="LinePanel.java" index="3">
 <position/>
 </item>
-<item historyLabel="NetSimGUI.java" index="2">
-<position info="not_deleted" x="4600" y="15"/>
-</item>
-<item historyLabel="NetSimGUI.java" index="2">
-<position info="not_deleted" x="4965" y="0"/>
-</item>
-<item active="true" historyLabel="NetSimGUI.java" index="2">
+<item historyLabel="NetSimGUI.java" index="4">
 <position/>
+</item>
+<item historyLabel="About.java" index="5">
+<position/>
+</item>
+<item historyLabel="WelcomeWindow.java" index="6">
+<position/>
+</item>
+<item historyLabel="NetSimGUI.java" index="4">
+<position info="not_deleted" x="266" y="0"/>
+</item>
+<item historyLabel="NetSimGUI.java" index="4">
+<position info="not_deleted" x="1246" y="0"/>
+</item>
+<item historyLabel="WelcomeWindow.java" index="6">
+<position info="not_deleted" x="1885" y="0"/>
+</item>
+<item historyLabel="NetSimGUI.java" index="4">
+<position info="not_deleted" x="1246" y="0"/>
+</item>
+<item historyLabel="WelcomeWindow.java" index="6">
+<position info="not_deleted" x="572" y="0"/>
+</item>
+<item historyLabel="NetSimGUI.java" index="4">
+<position info="not_deleted" x="7385" y="0"/>
+</item>
+<item historyLabel="WelcomeWindow.java" index="6">
+<position info="not_deleted" x="2113" y="0"/>
+</item>
+<item historyLabel="About.java" index="5">
+<position info="not_deleted" x="1856" y="0"/>
+</item>
+<item historyLabel="WelcomeWindow.java" index="6">
+<position info="not_deleted" x="2069" y="0"/>
+</item>
+<item historyLabel="About.java" index="5">
+<position/>
+</item>
+<item historyLabel="NetSimGUI.java" index="4">
+<position info="not_deleted" x="1576" y="67"/>
+</item>
+<item historyLabel="About.java" index="5">
+<position info="not_deleted" x="1618" y="0"/>
+</item>
+<item historyLabel="WelcomeWindow.java" index="6">
+<position info="not_deleted" x="2069" y="0"/>
+</item>
+<item historyLabel="WelcomeWindow.java" index="6">
+<position info="not_deleted" x="1957" y="0"/>
+</item>
+<item historyLabel="About.java" index="5">
+<position info="not_deleted" x="1518" y="104"/>
+</item>
+<item historyLabel="WelcomeWindow.java" index="6">
+<position info="not_deleted" x="1979" y="0"/>
+</item>
+<item historyLabel="About.java" index="5">
+<position info="not_deleted" x="1518" y="110"/>
+</item>
+<item historyLabel="WelcomeWindow.java" index="6">
+<position info="not_deleted" x="1979" y="0"/>
+</item>
+<item historyLabel="WelcomeWindow.java" index="6">
+<position info="not_deleted" x="1712" y="0"/>
+</item>
+<item historyLabel="About.java" index="7">
+<position/>
+</item>
+<item historyLabel="WelcomeWindow.java" index="6">
+<position info="not_deleted" x="1787" y="0"/>
+</item>
+<item historyLabel="WelcomeWindow.java" index="6">
+<position/>
+</item>
+<item historyLabel="WelcomeWindow.java" index="6">
+<position info="not_deleted" x="1655" y="13"/>
+</item>
+<item historyLabel="About.java" index="5">
+<position info="not_deleted" x="1518" y="110"/>
+</item>
+<item historyLabel="WelcomeWindow.java" index="6">
+<position info="not_deleted" x="1655" y="13"/>
+</item>
+<item historyLabel="WelcomeWindow.java" index="6">
+<position info="not_deleted" x="1979" y="0"/>
+</item>
+<item historyLabel="About.java" index="5">
+<position info="not_deleted" x="1518" y="110"/>
+</item>
+<item historyLabel="WelcomeWindow.java" index="6">
+<position/>
+</item>
+<item historyLabel="NetSimGUI.java" index="4">
+<position info="not_deleted" x="24" y="94"/>
+</item>
+<item historyLabel="WelcomeWindow.java" index="6">
+<position info="not_deleted" x="153" y="0"/>
+</item>
+<item historyLabel="WelcomeWindow.java" index="6">
+<position info="not_deleted" x="249" y="0"/>
+</item>
+<item historyLabel="WelcomeWindow.java" index="6">
+<position info="not_deleted" x="1982" y="0"/>
+</item>
+<item active="true" historyLabel="WelcomeWindow.java" index="6">
+<position info="not_deleted" x="249" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -516,11 +524,17 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LinePanel.java" tooltip="NetSim/src/NetSimGUI/java/LinePanel.java">
-<persistable path="/NetSim/src/NetSimGUI/java/LinePanel.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.cloudgarden.jigloo.editors.FormEditor" name="About.java" tooltip="NetSim/src/NetSimGUI/java/About.java">
+<persistable path="/NetSim/src/NetSimGUI/java/About.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WelcomeWindow.java" tooltip="NetSim/src/NetSimGUI/java/WelcomeWindow.java">
+<persistable path="/NetSim/src/NetSimGUI/java/WelcomeWindow.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NetSimGUI.java" tooltip="NetSim/src/NetSimGUI/java/NetSimGUI.java">
 <persistable path="/NetSim/src/NetSimGUI/java/NetSimGUI.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LinePanel.java" tooltip="NetSim/src/NetSimGUI/java/LinePanel.java">
+<persistable path="/NetSim/src/NetSimGUI/java/LinePanel.java"/>
 </file>
 <file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="JRadioButton.class" tooltip="javax.swing.JRadioButton">
 <persistable org.eclipse.jdt.ui.ClassFileIdentifier="=NetSim/C:\/Program Files\/Java\/jre6\/lib\/rt.jar&lt;javax.swing(JRadioButton.class"/>
