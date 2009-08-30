@@ -45,9 +45,9 @@
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NetSimGUI.java" partName="NetSimGUI.java" path="C:/Users/Yina/Desktop/UVa/FALL09/Software Eng/HW1/NetSim/NetSim/src/NetSimGUI/java/NetSimGUI.java" title="NetSimGUI.java" tooltip="NetSim/src/NetSimGUI/java/NetSimGUI.java" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NetSimGUI.java" partName="NetSimGUI.java" path="C:/Users/Yina/Desktop/UVa/FALL09/Software Eng/HW1/NetSim/NetSim/src/NetSimGUI/java/NetSimGUI.java" title="NetSimGUI.java" tooltip="NetSim/src/NetSimGUI/java/NetSimGUI.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NetSim/src/NetSimGUI/java/NetSimGUI.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="6387"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="0"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WelcomeWindow.java" partName="WelcomeWindow.java" path="C:/Users/Yina/Desktop/UVa/FALL09/Software Eng/HW1/NetSim/NetSim/src/NetSimGUI/java/WelcomeWindow.java" title="WelcomeWindow.java" tooltip="NetSim/src/NetSimGUI/java/WelcomeWindow.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NetSim/src/NetSimGUI/java/WelcomeWindow.java"/>
@@ -57,9 +57,9 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NetSim/src/NetSimGUI/java/About.java"/>
 <editorState selectionHPixel="0" selectionLength="0" selectionOffset="1425"/>
 </editor>
-<editor focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="About.java" partName="About.java" path="C:/Users/Yina/Desktop/UVa/FALL09/Software Eng/HW1/NetSim/NetSim/src/NetSimGUI/java/About.java" title="About.java" tooltip="NetSim/src/NetSimGUI/java/About.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="About.java" partName="About.java" path="C:/Users/Yina/Desktop/UVa/FALL09/Software Eng/HW1/NetSim/NetSim/src/NetSimGUI/java/About.java" title="About.java" tooltip="NetSim/src/NetSimGUI/java/About.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NetSim/src/NetSimGUI/java/About.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="1147"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="0"/>
 </editor>
 </editors>
 <views>
@@ -123,7 +123,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jst.j2ee.internal.perspective.J2EEPerspective" id="org.eclipse.jst.j2ee.J2EEPerspective" label="Java EE"/>
 <alwaysOnActionSet id="org.eclipse.jst.servlet.ui.internal.actions.ConvertToWebModuleTypeActionSet"/>
@@ -359,10 +359,8 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NetSim/src/NetSimGUI/java/About.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.cloudgarden.jigloo.editors.FormEditor" path="/NetSim/src/NetSimGUI/java/About.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NetSim/src/NetSimGUI/java/NetSimGUI.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NetSim/src/NetSimGUI/java/NetSimGUI.java"/>
 </editors>
-<item historyLabel="WelcomeWindow.java" index="2">
-<position info="not_deleted" x="1979" y="0"/>
-</item>
 <item historyLabel="About.java" index="1">
 <position info="not_deleted" x="1518" y="110"/>
 </item>
@@ -507,7 +505,10 @@
 <item historyLabel="NetSimGUI.java" index="6">
 <position info="not_deleted" x="6387" y="0"/>
 </item>
-<item active="true" historyLabel="About.java" index="5">
+<item historyLabel="About.java" index="5">
+<position/>
+</item>
+<item active="true" historyLabel="NetSimGUI.java" index="7">
 <position/>
 </item>
 </navigationHistory>
@@ -516,13 +517,6 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@e0a75a"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@184922c"/>
-</trimArea>
-<trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@5e841c"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -530,7 +524,6 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@18ada9f"/>
 </trimArea>
 </trimLayout>
 </window>
