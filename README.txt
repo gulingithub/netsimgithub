@@ -12,7 +12,7 @@ NetSim is a network simulator project with the following objectives:
 - Configuration of network elements and its parameters
 - Network simulation
 
-Version 0.0 (August 31 2009) implements:
+Version 0.1 (August 31 2009) implements:
 - Basic GUI
 - Three basic network elements
 - Graphical building of network topologies
@@ -20,6 +20,31 @@ Version 0.0 (August 31 2009) implements:
 =========================================================================
 How to...
 =========================================================================
+
+Add a network element:
+-------------------------
+In NetSim V 0.1 you can draw a network topology by selecting the network 
+elements avaliable on the left menu and then clicking the desired position 
+in the canvas.
+
+Select a network element:
+-------------------------
+- Click select button 
+- Click the network element on the canvas
+- To select more than one element press and hold the CTRl key
+
+Delete a network element:
+-------------------------
+- Select the network element
+- Press the DEL key
+
+Quit the application:
+---------------------
+- Click Select File -> Quit in the top menu
+
+See the About information:
+--------------------------
+- Click Select Help -> About in the top menu
 
 
 =========================================================================
@@ -30,26 +55,3 @@ Yina Arenas	yina@virginia.edu
 Alex Gessner	aeg5a@virginia.edu
 Gu Lin		gl2hv@virginia.edu
 
-=========================================================================
-Iterative Project Development
-=========================================================================
-
-Log of our daily activities:
-
-Day 0: 
-- Installed Eclipse
-- Installed TurtoiseSVN
-- Configured google hosting project:
-	http://code.google.com/p/cs6240networksimulator/	
-- Created this README file
-- Decided on our project "Network Simulator"
-- Used SVN with some simple tests
-- Created blank project ("Hello World") on Eclipse
-
-Day 1:
-- Developed a GUI skeleton for NetSim
-- Defined project specification and complemented initial ideas
-- Installed Subversive on Eclipse, logged on cs powernodes and tested
-
-Day 2:
-- Kept working on the GUI
