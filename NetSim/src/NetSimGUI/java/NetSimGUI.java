@@ -27,6 +27,7 @@ public class NetSimGUI extends JFrame {
 	private JMenu fileMenu, editMenu, helpMenu;
 	private JMenuItem jMenuItem1, jMenuItem2, jMenuItem3, jMenuItem4;
 	private JLabel posIcon;
+	public About aboutWindow= new About();
 	private ArrayList<Component> selectedComponents = new ArrayList<Component>();
 
 	ImageIcon iconNode = new ImageIcon (getClass().getClassLoader().getResource("resources/icons/node.png"));
@@ -149,6 +150,7 @@ public class NetSimGUI extends JFrame {
 					jMenuItem2 = new JMenuItem();
 					fileMenu.add(jMenuItem2);
 					jMenuItem2.setText("Quit");
+					jMenuItem2.addActionListener(SimpleListener);
 					//jMenuItem2.setAction(getAppActionMap().get("quit"));
 				}		            	
 				//Edit Menu
@@ -160,6 +162,7 @@ public class NetSimGUI extends JFrame {
 					jMenuItem3 = new JMenuItem();
 					editMenu.add(jMenuItem3);
 					jMenuItem3.setText("Clear");
+					jMenuItem3.addActionListener(SimpleListener2);
 					//jMenuItem3.setAction(getAppActionMap().get("clear"));
 				}
 				//Help Menu
@@ -170,7 +173,8 @@ public class NetSimGUI extends JFrame {
 				{
 					jMenuItem4 = new JMenuItem();
 					helpMenu.add(jMenuItem4);
-					jMenuItem4.setText("About");		                
+					jMenuItem4.setText("About");	
+					jMenuItem4.addActionListener(SimpleListener1);
 					//jMenuItem4.setAction(getAppActionMap().get("about"));
 				}									
 			}
@@ -181,6 +185,40 @@ public class NetSimGUI extends JFrame {
 		}
 	}
 
+	ActionListener SimpleListener = new ActionListener()
+	{
+		public void actionPerformed (ActionEvent e)
+		{
+			
+			System.out.println("You chosegegegegege" + e.getActionCommand());
+			System.exit(0);
+		}
+	}
+	;
+	
+	ActionListener SimpleListener1 = new ActionListener()
+	{
+		public void actionPerformed (ActionEvent e)
+		{
+			
+			System.out.println("You chosegegegegege" + e.getActionCommand());
+			aboutWindow.show();
+			
+		}
+	};
+	
+	ActionListener SimpleListener2 = new ActionListener()
+	{
+		public void actionPerformed (ActionEvent e)
+		{
+			
+			System.out.println("You chosegegegegege" + e.getActionCommand());
+			
+			rightPane.removeAll();
+			rightPane.validate();
+		}
+	};
+	
 	private void rightPaneKeyPressed(java.awt.event.KeyEvent evt) {
 		System.out.println("AJA....!!!");
 		System.out.println(evt.getKeyCode());
