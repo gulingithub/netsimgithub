@@ -1,4 +1,13 @@
+/* 
+ * NetSim V0.1 
+ * 
+ * Yina Arenas
+ * Gu Lin
+ * Alex Gessner
+ */
+
 package NetSimGUI.java;
+
 import java.awt.*;
 import java.awt.event.*;
 import java.util.ArrayList;
@@ -10,7 +19,7 @@ public class NetSimGUI extends JFrame {
 	private static final long serialVersionUID = 1L;
 	private JSplitPane mainView, leftPane;
 	private JPanel bottomLeftPane, topLeftPane;
-	private LinePanel rightPane;
+	private JPanel rightPane;
 	private JToggleButton linkButton, nodeButton, transButton, appButton, selectButton;
 	private JMenuBar jMenuBar;
 	private JMenu fileMenu, helpMenu; //editMenu,
@@ -18,9 +27,11 @@ public class NetSimGUI extends JFrame {
 	private JLabel posIcon;
 	public About aboutWindow= new About();
 	private ArrayList<Component> selectedComponents = new ArrayList<Component>();
-//	private ArrayList<Component> linkedComponents = new ArrayList<Component>();
-	private boolean startDrag = false;
+	private ArrayList<Link> linkList = new ArrayList<Link>();
+	private boolean startDrag = false, drawLink = false;
 	private int initMousePosX, initMousePosY;
+	private Component initComponent= null;
+
 
 	///////////
 	int x, y, oldx, oldy, count;
@@ -83,7 +94,7 @@ public class NetSimGUI extends JFrame {
 							appButton.setText("  App  ");
 							appButton.setIcon(iconApp);
 							transButton = new JToggleButton();
-							transButton.setText("Trans ");
+							transButton.setText("  Trans ");
 							transButton.setIcon(iconTrans);
 							selectButton = new JToggleButton();
 							selectButton.setText("     Select ");
@@ -124,7 +135,7 @@ public class NetSimGUI extends JFrame {
 						rightPane.addMouseListener(new MouseAdapter(){
 							public void mouseClicked(MouseEvent me){
 								rightPaneClicked(me);
-								drawNetworkConnection(me);
+								//drawNetworkConnection(me);
 							}
 							public void mouseReleased(MouseEvent me){
 								rightPaneMouseReleased(me);
@@ -198,14 +209,14 @@ public class NetSimGUI extends JFrame {
 		}
 	}
 	;
-	
+
 	ActionListener SimpleListener1 = new ActionListener()
 	{
 		public void actionPerformed (ActionEvent e){			
 			aboutWindow.show();			
 		}
 	};
-	
+
 	//Detects DEL key to delete components
 	private void rightPaneKeyPressed(java.awt.event.KeyEvent evt) {
 		if ( evt.getKeyCode() == KeyEvent.VK_DELETE) {
@@ -216,7 +227,7 @@ public class NetSimGUI extends JFrame {
 		}
 	}
 
-	//Alex function to draw line
+/*	//Alex's function to draw line
 	private void drawNetworkConnection(MouseEvent me) {
 		if(count == 0)
 		{
@@ -240,7 +251,7 @@ public class NetSimGUI extends JFrame {
 
 			this.rightPane.repaint();
 		}
-	}
+	}*/
 
 	//Inserts and moves components from the pane
 	private void rightPaneClicked(MouseEvent me) {
@@ -292,7 +303,6 @@ public class NetSimGUI extends JFrame {
 							.addComponent(posIcon, javax.swing.GroupLayout.PREFERRED_SIZE, h, javax.swing.GroupLayout.PREFERRED_SIZE)
 							.addContainerGap(h, Short.MAX_VALUE))
 			);
-
 		}
 		//Selects components
 		else if (selectButton.isSelected()) {
@@ -326,17 +336,15 @@ public class NetSimGUI extends JFrame {
 		rightPane.repaint();
 	}
 
-	//Implements components dragging 
+	//Implements components dragging
 	private void rightPaneMouseDragged(java.awt.event.MouseEvent evt) {
 		Component iconComp = rightPane.getComponentAt(evt.getX(), evt.getY());
-		initMousePosX = evt.getX();
-		initMousePosY = evt.getY();
-		int deltaX = evt.getX() - initMousePosX;
-		int deltaY = evt.getY() - initMousePosY;
 		Graphics g = rightPane.getGraphics();
-
 		if (selectButton.isSelected()) {
 			if (!startDrag) {
+				initMousePosX = evt.getX();
+				initMousePosY = evt.getY();
+
 				if (!selectedComponents.contains(iconComp) && !evt.isControlDown()) {
 					for (Object comp : selectedComponents)
 						((Component) comp).setForeground(java.awt.Color.BLACK);
@@ -347,7 +355,10 @@ public class NetSimGUI extends JFrame {
 					}
 				}
 				startDrag = true;
-			}			
+			}
+			int deltaX = evt.getX() - initMousePosX;
+			int deltaY = evt.getY() - initMousePosY;
+
 			if (!selectedComponents.isEmpty() && !evt.isControlDown()) {
 				deltaX = evt.getX() - initMousePosX;
 				deltaY = evt.getY() - initMousePosY;
@@ -362,23 +373,28 @@ public class NetSimGUI extends JFrame {
 			else {
 				g.drawRect(Math.min(initMousePosX, evt.getX()), Math.min(initMousePosY, evt.getY()),
 						Math.abs(initMousePosX - evt.getX()), Math.abs(initMousePosY - evt.getY()));
-				rightPane.repaint();
 			}
 		}
-		/*		else if (linkButton.isSelected()) {
-			System.out.println("HERE");
-			if (!iconComp.equals(rightPane)) {
-				iconComp.setForeground(java.awt.Color.BLUE);
-				linkedComponents.add(iconComp);
-				for (Object comp : linkedComponents)
-					g.drawLine(((Component) comp).getX(), ((Component) comp).getY(), evt.getX(), evt.getX());
-				rightPane.repaint();				
+		else if (linkButton.isSelected()) {
+			if (!startDrag) {
+				initMousePosX = evt.getX();
+				initMousePosY = evt.getY();
+				startDrag = true;
+				if(!iconComp.equals(rightPane)){
+					initComponent = iconComp;
+					drawLink = true;
+				}
 			}
-		}*/
+			if (drawLink)
+				g.drawLine(initMousePosX, initMousePosY, evt.getX(), evt.getY());
+		}
+		rightPane.repaint();
+		drawLinks();
 	}
 
 	//Helps in the selection of several components 
 	private void rightPaneMouseReleased(java.awt.event.MouseEvent evt) {
+		Component iconComp = rightPane.getComponentAt(evt.getX(), evt.getY());
 		if (startDrag == true && selectButton.isSelected()) {
 			for (Object comp : rightPane.getComponents()) {
 				int posX = ((Component) comp).getX();
@@ -398,8 +414,31 @@ public class NetSimGUI extends JFrame {
 					}
 				}
 			}
+			rightPane.repaint();
 		}
-		startDrag = false;
+		if(startDrag && linkButton.isSelected()){
+			if(!iconComp.equals(rightPane)&& !iconComp.equals(initComponent)){
+				Link l = new Link(initComponent, iconComp);
+				linkList.add(l);
+				drawLinks();
+
+			}
+			drawLink = false;
+		}
+		startDrag = false;		
+	}
+
+	private void drawLinks(){
+		Graphics g = rightPane.getGraphics();
+
+		for(Link l:linkList){
+			int x1 = l.initComponent.getX()+15;
+			int y1 = l.initComponent.getY()+20;
+			int x2 = l.lastComponent.getX()+15;
+			int y2 = l.lastComponent.getY()+20;
+
+			g.drawLine(x1, y1, x2, y2);			
+		}
 	}
 }
 //end	
