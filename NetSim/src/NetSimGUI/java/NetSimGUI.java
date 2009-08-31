@@ -44,7 +44,7 @@ public class NetSimGUI extends JFrame {
 	ImageIcon iconLink = new ImageIcon(getClass().getClassLoader().getResource("resources/icons/link.png"));
 	ImageIcon iconPoint = new ImageIcon(getClass().getClassLoader().getResource("resources/icons/point.png"));
 
-	public static void main(String[] args) {
+/*	public static void main(String[] args) {
 		SwingUtilities.invokeLater(new Runnable() {
 			public void run() {
 				NetSimGUI inst = new NetSimGUI();
@@ -52,7 +52,7 @@ public class NetSimGUI extends JFrame {
 				inst.setVisible(true);
 			}
 		});
-	}
+	}*/
 
 	//Initialize frame
 	public NetSimGUI() {
