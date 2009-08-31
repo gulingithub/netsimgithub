@@ -21,7 +21,7 @@ Version 0.1 (August 31 2009) implements:
 How to...
 =========================================================================
 
-Add a network element:
+Add a network topology:
 -------------------------
 In NetSim V 0.1 you can draw a network topology by selecting the network 
 elements avaliable on the left menu and then clicking the desired position 
